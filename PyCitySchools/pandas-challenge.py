@@ -13,8 +13,8 @@
 import pandas as pd
 
 # File to Load (Remember to Change These)
-school_data_to_load = "/Users/helenamabey/Git files/pandas-challenge/PyCitySchools/Resources/schools_complete.csv"
-student_data_to_load = "/Users/helenamabey/Git files/pandas-challenge/PyCitySchools/Resources/students_complete.csv"
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
 
 # Read School and Student Data File and store into Pandas DataFrames
 school_data = pd.read_csv(school_data_to_load)
